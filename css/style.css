@@ -124,6 +124,7 @@ a {
     justify-content: space-between;
     max-width: 1280px;
     height: 683px;
+    /* height: 500px; */
     /* border: solid 2px blue; */
     margin: 0 auto;
 }

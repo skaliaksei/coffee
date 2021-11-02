@@ -20,8 +20,13 @@
         flex-wrap: wrap;
         justify-content: space-between;
         max-width: 1280px;
-        height: 683px;
+        height: 500px;
         margin: 0 auto;
+    }
+
+    .card__right {
+        background-position-x: -190px;
+        background-position-y: -20px;
     }
 
     .button-key {
@@ -31,6 +36,3 @@
         line-height: 18px;
     }
 }
-
-
-
