@@ -2,20 +2,22 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+    font-family: 'Philosopher', sans-serif;
 }
 
 h2 {
-    font-family: Playfair Display;
+    font-family: font-family: 'Philosopher', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 56px;
-    line-height: 68px;
+    /* font-size: calc(36px + 20 * (100vw / 1280)); */
+    line-height: 60px;
     color: #FFFFFF;
     opacity: 0.87;
 }
 
 h3 {
-    font-family: Playfair Display;
+    font-family: 'Fira Code', monospace;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -24,7 +26,7 @@ h3 {
 }
 
 h4 {
-    font-family: Poppins;
+    font-family: 'Philosopher', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -36,9 +38,9 @@ a {
     text-decoration: none;
 }
 
-/* font-family: 'Playfair Display', serif; */
+/* font-family: 'Fira Code', monospace;
 
-/* font-family: 'Poppins', sans-serif; */
+font-family: 'Philosopher', sans-serif; */
 
 
 .wrapper {
@@ -87,7 +89,7 @@ a {
 }
 
 .nav-list__item a {
-    font-family: Poppins;
+    font-family: 'Fira Code', monospace;
     font-style: normal;
     text-transform: capitalize;
     font-weight: 500;
@@ -116,7 +118,8 @@ a {
 
 
 .main-container {
-
+    /* height: 100vh; */
+    margin-bottom: 30px;
 }
 .card {
     display: flex;
@@ -154,7 +157,7 @@ a {
     height: 48px;
     background-color: #ffb577;
     color: #2e2d33;
-    font-family: Poppins;
+    font-family: 'Fira Code';
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -165,6 +168,8 @@ a {
     background-color: #cf9668;
     color: #fff;
 }
+
+
 
 
 
@@ -190,3 +195,84 @@ a {
     /* height: 683px; */
     /* border: solid 2px red; */
 }
+
+
+/* Second */
+.second-card {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    /* height: 683px; */
+    /* height: 500px; */
+    /* border: solid 2px blue; */
+    /* margin: 0 auto; */
+}
+.second-card__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+
+
+.link a:hover {
+    color: #fff;
+}
+.link a {
+    font-family: 'Philosopher', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFB577;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.second-card__area {
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+}
+.second-card__item {
+    height: 75px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #B8B8B8;
+
+}
+.second-card__item + .second-card__item {
+    margin-left: 36px;
+}
+.second-card__line1 {
+    font-size: 24px;
+    line-height: 36px;
+    color: #C4E4EA;
+}
+.second-card__line2 {
+    margin-bottom: 15px;
+}
+.second-card__line3 {
+}
+
+
+
+.second-card__right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 50%;
+    height: 595px;
+    /* margin-left: 50px; */
+}
+
+.second-card__right .inner1 {
+    margin-top: 80px;
+}
+
+.second-card__right .inner2 {
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+
