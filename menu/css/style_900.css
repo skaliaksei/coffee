@@ -1,0 +1,39 @@
+@media all and (max-width: 900px) {
+    h2 {
+        font-size: 36px;
+        /* font-size: calc(36px + (20 + 20 * 0.7) * ((100vw - 320px) / 1280)); */
+        line-height: 45px;
+    }
+
+    h3 {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    h4 {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+
+    .card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 1280px;
+        height: 500px;
+        margin: 0 auto;
+    }
+
+    .card__right {
+        background-position-x: -190px;
+        background-position-y: -20px;
+    }
+
+    .button-key {
+        width: 100px;
+        height: 38px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
