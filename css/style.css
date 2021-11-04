@@ -115,6 +115,7 @@ font-family: 'Philosopher', sans-serif; */
 .main-container {
     /* height: 100vh; */
     margin-bottom: 30px;
+	padding-top: 96px;
 }
 .card {
     display: flex;
@@ -200,7 +201,7 @@ font-family: 'Philosopher', sans-serif; */
     /* height: 683px; */
     /* height: 500px; */
     /* border: solid 2px blue; */
-    /* margin: 0 auto; */
+    padding-top: 160px;
 }
 .second-card__left {
     display: flex;
