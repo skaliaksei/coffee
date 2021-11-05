@@ -449,3 +449,41 @@ font-family: 'Philosopher', sans-serif; */
     text-transform: capitalize;
     color: #B8B8B8;
 }
+
+
+/* ABOUT__PAGE */
+.picture-container {
+    margin-top: 160px;
+    background: url('../about/images/bg.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.gradient-container {
+    background-position: center;
+    height: 500px;
+    background-size: cover;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.1), #19161b);
+}
+.picture-text__container {
+    padding-left: 80px;
+    height: 100%;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.picture-text__title {
+    font-family: 'Philosopher', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 60px;
+    color: #FFFFFF;
+    opacity: 0.87;
+    margin-bottom: 24px;
+}
+.picture-text__title .bold{
+    color: #FFC492;
+}
+.picture-text__description {
+}
