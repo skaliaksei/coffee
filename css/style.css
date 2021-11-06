@@ -462,7 +462,8 @@ font-family: 'Philosopher', sans-serif; */
     background-position: center;
     height: 500px;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0, 0, 0, 0.1), #19161b);
+    /* background: linear-gradient(to left, rgba(0, 0, 0, 0.1), #19161b); */
+    background: linear-gradient(-70deg, rgba(0, 0, 0, 0) 15%, rgba(25, 22, 27, 9.2) 90%);
 }
 .picture-text__container {
     padding-left: 80px;
@@ -486,4 +487,112 @@ font-family: 'Philosopher', sans-serif; */
     color: #FFC492;
 }
 .picture-text__description {
+}
+
+
+.our-history {
+    background-color: rgba(255, 255, 255, 0.03);
+    padding: 80px;
+}
+.our-history__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    color: #fff;
+    margin-bottom: 70px;
+}
+.our-history__card-area {
+    border-top: 2px dashed rgba(255, 255, 255, 0.15);
+    display: flex;
+    justify-content: space-between;
+}
+.our-history__card {
+    height: 222px;
+    max-width: 240px;
+}
+.our-history__card + .our-history__card {
+    margin-left: 10px;
+}
+.our-history__card-line {
+    border-top: 6px solid #FFB577;
+    width: 46px;
+    height: 6px;
+    background-color: #fff;
+    margin-bottom: 34px;
+    margin-top: -4px;
+}
+.our-history__card-year {
+    font-family: 'Fira Code', monospace;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+.our-history__card-subtitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+.our-history__card-description {
+    /* font-family: 'Fira Code', monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #B8B8B8; */
+    /* font-family: 'Philosopher', sans-serif; */
+}
+
+/* STORY */
+.main-story {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 96px;
+}
+.main-story__left {
+    width: 545px;
+    margin-right: 15px;
+}
+.second-card__title {
+    margin-bottom: 24px;
+}
+.second-card__subtitle {
+    margin-bottom: 32px;
+}
+.story-card__left {
+    display: flex;
+    justify-content: space-between;
+}
+
+.story-card__first-picture {
+    margin-top: 72px;
+}
+
+.story-card__right {
+    max-width: 50%;
+}
+.main-story__min-title {
+}
+.picture-text__title {
+}
+.picture-text__title__story {
+    font-size: 32px;
+    line-height: 48px;
+}
+.bold {
+}
+.main-story__paragraph {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #B8B8B8;
+    margin-bottom: 16px;
 }
