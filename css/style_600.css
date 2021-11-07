@@ -59,7 +59,7 @@
     .second-card__line3 {
     }
     .but {
-        margin: 0 auto;
+        display: none;
     }
     .second-card__button {
     }
