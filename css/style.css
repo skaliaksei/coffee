@@ -141,6 +141,7 @@ font-family: 'Philosopher', sans-serif; */
     /* align-items: ; */
     width: 50%;
     padding-right: 70px;
+    margin-right: 15px;
 }
 .card__title {
     margin-bottom: 16px;
@@ -150,6 +151,9 @@ font-family: 'Philosopher', sans-serif; */
 }
 .card__button {
     margin-bottom: 40px;
+}
+.but {
+    margin-top: 50px;
 }
 
 .button-key {
@@ -214,11 +218,13 @@ font-family: 'Philosopher', sans-serif; */
 .second-card__left {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     width: 50%;
 }
 
-
+.second-card__title {
+    margin-top: 30px;
+}
 .link a:hover {
     color: #fff;
 }
@@ -236,7 +242,7 @@ font-family: 'Philosopher', sans-serif; */
 
 .second-card__area {
     display: flex;
-    height: 200px;
+    /* height: 200px; */
     justify-content: space-between;
 }
 .second-card__item {
@@ -684,7 +690,28 @@ input[type=submit]:hover {
 .map__description {
     height: 532px;
     width: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
     background-color: #1f1d21;
+    padding: 80px 0 0 64px;
+}
+.map__description-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 6px;
+}
+.map__description-text {
+    font-family: 'Fira Code', monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #B8B8B8;
+    margin-bottom: 32px;
 }
 .map__container {
     position: relative;
@@ -698,6 +725,7 @@ input[type=submit]:hover {
     background: url('../images/map.png') center center;
     background-repeat: no-repeat;
     /* background-size: cover; */
-    transition-duration: 0.8s;
+    transition-duration: 0.7s;
+    background-position-x: -500px;
 }
 

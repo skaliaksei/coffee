@@ -10,8 +10,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Philosopher:wght@400;700&display=swap" rel="stylesheet">
 
 
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style_900.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/style_1100.css" type="text/css">
+    <link rel="stylesheet" href="css/style_900.css" type="text/css">
+
     <title>Coffee Cafe</title>
 </head>
 <body>
@@ -70,6 +72,13 @@
                                 <div class="second-card__line1">10+ человек</div>
                                 <div class="second-card__line2">Мы- небольшая команда</div>
                                 <div class="second-card__line3">Именно поэтому у нас царит домашняя атмосфера. К каждому клиенту особый подход</div>
+                                <div class="but">
+                                    <div class="second-card__button">
+                                        <a href="./menu/menu.html" title="Обзор меню">
+                                            <div class="button-key">Обзор меню &#8594;</div>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                             <div class="second-card__item">
                                 <div class="second-card__item">
@@ -87,11 +96,7 @@
                             </div>
                         </div>
 
-                        <div class="second-card__button">
-                            <a href="./menu/menu.html" title="Обзор меню">
-                                <div class="button-key">Обзор меню &#8594;</div>
-                            </a>
-                        </div>
+
                     </div>
 
 
@@ -108,15 +113,23 @@
                         </div>
                     </div>
                 </div>
+
             </div>
 
 
-            <!-- <div class="maps1">
-
-                <div class="maps1__inner">
-                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aad4c2847c1616cea90d8466efa2c2c49cdc439a74bba85e87ae97cae55b1131f&amp;width=400&amp;height=300&amp;lang=ru_RU&amp;scroll=true"></script>
+            <div class="map">
+                <div class="map__description">
+                    <div class="map__description-title">Время работы:</div>
+                    <div class="map__description-text">Понедельник - Воскресенье<br>09:00 - 23:00</div>
+                    <div class="map__description-title">Мы всегда здесь:</div>
+                    <div class="map__description-text">Беларусь - Минск<br>Минск, ул. Октябрьская 19</div>
+                    <div class="map__description-title">Для связи:</div>
+                    <div class="map__description-text">+375(17) 532-11-06<br>admin@coffee-cafe.org</div>
                 </div>
-            </div> -->
+                <div class="map__container">
+                    <div class="map__inner" id="map"></div>
+                </div>
+            </div>
 
 
 
@@ -156,7 +169,7 @@
                         </div>
                     </div>
                     <div class="footer__contact-us">
-                        <a href="./contacts/contacts.html" title="Contact Us">
+                        <a href="./contact/contact.html" title="Contact Us">
                             <div class="footer__contact">
                                 <span>Написать нам</span>
                                 <p class="discover__line"><p>
@@ -171,5 +184,6 @@
     </div>
 
 </body>
+    <script src="./contact/js/map.js" type="text/javascript"></script>
     <script src="js/main.js" type="text/javascript"></script>
 </html>

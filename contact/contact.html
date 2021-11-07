@@ -10,8 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Philosopher:wght@400;700&display=swap" rel="stylesheet">
 
 
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/style_900.css">
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <link rel="stylesheet" href="../css/style_900.css" type="text/css">
     <title>Coffee Cafe</title>
 </head>
 <body>
@@ -78,12 +78,17 @@
             </main>
 
             <div class="map">
-                <div class="map__description"></div>
+                <div class="map__description">
+                    <div class="map__description-title">Время работы:</div>
+                    <div class="map__description-text">Понедельник - Воскресенье<br>09:00 - 23:00</div>
+                    <div class="map__description-title">Мы всегда здесь:</div>
+                    <div class="map__description-text">Беларусь - Минск<br>Минск, ул. Октябрьская 19</div>
+                    <div class="map__description-title">Для связи:</div>
+                    <div class="map__description-text">+375(17) 532-11-06<br>admin@coffee-cafe.org</div>
+                </div>
                 <div class="map__container">
                     <div class="map__inner" id="map"></div>
-                    <!-- <div class="map__inner" id="map2"></div> -->
                 </div>
-
             </div>
 
             <footer class="footer">
@@ -138,5 +143,5 @@
         </div>
     </div>
 </body>
-    <script src="./js/main.js" type="text/javascript"></script>
+    <script src="./js/map.js" type="text/javascript"></script>
 </html>
