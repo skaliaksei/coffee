@@ -61,6 +61,7 @@
     .second-card__subtitle {
     }
     .second-card__area {
+        height: 260px;
     }
     .second-card__item {
         font-size: 14px;

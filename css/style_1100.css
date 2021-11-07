@@ -1,4 +1,7 @@
 @media all and (max-width: 1100px) {
+    .second-card__area {
+        height: 350px;
+    }
     .second-card__right {
         justify-content: center;
         align-items: center;

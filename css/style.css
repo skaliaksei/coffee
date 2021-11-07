@@ -208,7 +208,7 @@ font-family: 'Philosopher', sans-serif; */
 /* Second */
 .second-card {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     max-width: 1280px;
     /* height: 683px; */
     /* height: 500px; */
@@ -219,6 +219,7 @@ font-family: 'Philosopher', sans-serif; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    align-items: flex-start;
     width: 50%;
 }
 
@@ -242,7 +243,7 @@ font-family: 'Philosopher', sans-serif; */
 
 .second-card__area {
     display: flex;
-    /* height: 200px; */
+    height: 250px;
     justify-content: space-between;
 }
 .second-card__item {
