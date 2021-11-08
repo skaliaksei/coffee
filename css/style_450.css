@@ -1,0 +1,14 @@
+@media all and (max-width: 768px) {
+
+    .second-card__area {
+        justify-content: flex-start;
+        height: 350px;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .second-card__item + .second-card__item {
+        margin: 45px 0 0 0;
+    }
+
+
+}
