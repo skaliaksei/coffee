@@ -142,7 +142,10 @@
         line-height: 16px;
     }
 
-
+    /* ABOUT_PAGE */
+    .picture-text__description {
+        max-width: 50%;
+    }
 
 
 

@@ -96,6 +96,11 @@
     .menu__list-item--active {
     }
 
+    /* ABOUT_PAGE */
+    .picture__container {
+        margin-top: 20px;
+    }
+
     /* MAP */
     .map {
         flex-direction: column;

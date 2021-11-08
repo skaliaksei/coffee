@@ -32,4 +32,9 @@
         font-size: 15px;
         line-height: 22px;
     }
+
+    /* ABOUT */
+    .picture__container {
+        margin-top: 20px;
+    }
 }
