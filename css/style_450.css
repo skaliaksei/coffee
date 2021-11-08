@@ -1,4 +1,4 @@
-@media all and (max-width: 768px) {
+@media all and (max-width: 450px) {
 
     .second-card__area {
         justify-content: flex-start;
@@ -10,5 +10,26 @@
         margin: 45px 0 0 0;
     }
 
-
+    /* MENU_PAGE */
+    .menu__card-area {
+    }
+    .menu-card {
+    }
+    .menu-card__picture {
+        height: 200px;
+    }
+    .menu-card__item {
+        width: 300px;
+    }
+    .menu-card__description {
+        height: 60px;
+    }
+    .menu-card__title {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .menu-card__cost {
+        font-size: 15px;
+        line-height: 22px;
+    }
 }

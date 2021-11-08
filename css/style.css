@@ -1,3 +1,17 @@
+/* .nav__content {
+    position: absolute;
+    display: block;
+    background-color: #fff;
+    width: 100%;
+    transform: translateY(-200%);
+}
+
+.nav__content--active {
+    transform: translateY(0);
+} */
+
+
+
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -42,7 +56,64 @@ a {
 
 font-family: 'Philosopher', sans-serif; */
 
+/* BURGER */
+.burger-menu {
+    display: none;
+    position: absolute;
+    right: 47px;
+    top: 28px;
+    cursor: pointer;
+}
+.burger-menu__container {
+    height: 30px;
+    width: 45px;
+    /* background-color: #ccc; */
+}
+.burger-menu__item {
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+}
+.burger-menu__item + .burger-menu__item {
+    margin-top: 9px;
+}
 
+/* Mobile menu */
+.mobile-menu {
+    z-index: 100;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 100px);
+    top: calc(-100vh);
+    right: 0;
+    transition-duration: .3s;
+    background-color: rgba(255, 255, 255, 0.97);
+}
+.mobile-menu--active {
+    top: 100px;
+}
+.mobile-menu__item {
+    text-decoration: none;
+    text-transform: none;
+}
+
+
+.mobile-menu__item a {
+    font-family: 'Fira Code', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 50px;
+    color: #000;
+}
+.mobile-menu__item--active a{
+    color: #ffa32a;
+}
+/* main in MAIN-PAGE */
 .wrapper {
     width: 100%;
     margin: 0 auto;
@@ -69,7 +140,7 @@ font-family: 'Philosopher', sans-serif; */
 .nav-list {
     display: flex;
     /* height: 80px; */
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .nav-list__item {
@@ -116,6 +187,7 @@ font-family: 'Philosopher', sans-serif; */
     line-height: 24px;
     color: #FFC492;
 }
+
 
 
 
@@ -289,7 +361,7 @@ font-family: 'Philosopher', sans-serif; */
 
 
 
-/* MENU */
+/* MENU_PAGE */
 .discover {
     margin-top: 96px;
     display: flex;
@@ -369,8 +441,6 @@ font-family: 'Philosopher', sans-serif; */
     margin-right: -10px;
 }
 .menu-card {
-    /* width: 405px; */
-    /* width: 33.33%; */
     background-color: #1F1D21;
     margin-bottom: 32px;
     margin-left: 10px;

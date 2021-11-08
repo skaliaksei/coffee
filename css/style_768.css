@@ -1,4 +1,11 @@
 @media all and (max-width: 768px) {
+
+
+    /* BURGER */
+    .burger-menu {
+        display: block;
+    }
+
     .header {
     }
     .logo {
@@ -106,6 +113,22 @@
 
     .map {
         margin-top: 10px;
+    }
+
+
+    /* MENU-PAGE */
+    .menu {
+
+    }
+    .menu__list {
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu__list-item {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .menu__list-item--active {
     }
 
 }

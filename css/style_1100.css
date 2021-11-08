@@ -1,4 +1,9 @@
 @media all and (max-width: 1100px) {
+
+    .burger-menu {
+        display: none;
+    }
+
     .second-card__area {
         height: 350px;
     }
@@ -9,4 +14,24 @@
     .inner2 {
         display: none;
     }
+
+    /* MENU_PAGE */
+    .discover {
+        margin-top: 45px;
+        margin-bottom: 50px;
+    }
+    .discover__left {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .discover__subtitle {
+    }
+    .discover__line {
+    }
+    .discover__title {
+    }
+    .discover__right {
+    }
+
+
 }

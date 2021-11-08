@@ -1,4 +1,4 @@
-@media all and (max-width: 768px) {
+@media all and (max-width: 600px) {
     .header {
     }
     .logo {
@@ -79,7 +79,24 @@
     }
 
 
+    /* MENU_PAGE */
+    /* MENU-PAGE */
+    .menu {
 
+    }
+    .menu__list {
+    }
+    .menu__list-item {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .menu__list-item + .menu__list-item {
+        margin-left: 0;
+    }
+    .menu__list-item--active {
+    }
+
+    /* MAP */
     .map {
         flex-direction: column;
         width: 100%;
@@ -103,4 +120,10 @@
     .map__inner {
     }
 
+
+
+    /* FOOTER */
+    .discover__line {
+        display: none;
+    }
 }
