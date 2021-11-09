@@ -6,4 +6,3 @@ if(document.getElementById('burger')) {
         menu.classList.toggle("mobile-menu--active");
     }
 }
-

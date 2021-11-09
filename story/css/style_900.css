@@ -19,7 +19,7 @@
     }
 
     .nav-list {
-        justify-content: center;
+        justify-content: flex-start;
     }
 
     /* STORY-PAGE */
