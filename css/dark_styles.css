@@ -154,36 +154,41 @@
 
 
 /* ABOUT__PAGE */
-.gradient-container {
+.light .gradient-container {
     background: linear-gradient(-70deg, rgba(0, 0, 0, 0) 15%, rgba(25, 22, 27, 9.2) 90%);
 }
 .light .picture-text__title {
-    color: #000;
+    color: rgb(255, 255, 255);
     opacity: 0.87;
 }
-.picture-text__title .bold{
-    color: #FFC492;
+.light .picture-text__title .bold{
+    color: #ff9c4b;
+}
+.light .picture-text__description h4 {
+    color: #fff;
 }
 
-.our-history {
-    background-color: rgba(255, 255, 255, 0.03);
+.light .our-history {
+    background-color: rgba(0, 0, 0, 0.1);
 }
-.our-history__title {
-    color: #fff;
+.light .our-history__title {
+    color: rgb(0, 0, 0);
 }
-.our-history__card-area {
-    border-top: 2px dashed rgba(255, 255, 255, 0.15);
+.light .our-history__card-area {
+    border-top: 2px dashed rgba(0, 0, 0, 0.5);
 }
-.our-history__card-line {
-    border-top: 6px solid #FFB577;
+.light .our-history__card-line {
+    border-top: 8px solid #ff9c4b;
     background-color: #fff;
+    margin-left: -4px;
 }
-.our-history__card-year {
-    color: #fff;
+.light .our-history__card-year {
+    color: rgb(0, 0, 0);
 }
-.our-history__card-subtitle {
-    color: #fff;
+.light .our-history__card-subtitle {
+    color: rgb(0, 0, 0);
 }
+
 
 /* STORY */
 
@@ -227,4 +232,13 @@
 }
 .light .map__description-text {
     color: #222222;
+}
+
+
+@media all and (max-width: 768px) {
+    .light .our-history__card-area {
+        flex-direction: column;
+        border-top: none;
+        border-left: 2px dashed rgba(0, 0, 0, 0.5);
+    }
 }

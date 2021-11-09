@@ -571,7 +571,7 @@ a {
 }
 .our-history__card {
     height: 222px;
-    max-width: 240px;
+    max-width: 220px;
 }
 .our-history__card + .our-history__card {
     margin-left: 10px;
