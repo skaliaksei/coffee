@@ -315,7 +315,7 @@ font-family: 'Philosopher', sans-serif; */
 
 .second-card__area {
     display: flex;
-    height: 250px;
+    height: 266px;
     justify-content: space-between;
 }
 .second-card__item {
