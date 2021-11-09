@@ -1,5 +1,5 @@
 let ourMap = document.getElementById('map')
-console.log(ourMap.offsetWidth);
+// console.log(ourMap.offsetWidth);
 if (ourMap.offsetWidth > 800) {
     ourMap.style.backgroundPositionX = `-300px`;
 } else if (ourMap.offsetWidth > 600) {
@@ -8,7 +8,7 @@ if (ourMap.offsetWidth > 800) {
     ourMap.style.backgroundPositionX = `-650px`;
 }
 
-// console.log(ourMap.style.backgroundPositionX);
+
 ourMap.style.backgroundPositionY = `-100px`;
 
 let startX = Number(ourMap.style.backgroundPositionX.slice(0, -2));

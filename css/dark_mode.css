@@ -1,0 +1,89 @@
+/* DARK-LIGHT_KEY */
+.dark-key__container {
+    position: absolute;
+    right: 40px;
+    top: 30px;
+    cursor: pointer;
+}
+
+.switch {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 62px;
+    height: 26px;
+    background-color: #000;
+    cursor: pointer;
+    border-radius: 50px;
+    border: solid 1px #000
+  }
+  .dark .switch {
+    background-color: #fff;
+  }
+
+  .on {
+    position: absolute;
+    right: 2px;
+    color: #fff;
+  }
+
+  .moon {
+    width: 22px;
+    height: 22px;
+    vertical-align: middle;
+  }
+
+  .off {
+    position: absolute;
+    left: 3px;
+    color: #000;
+  }
+
+  .sun {
+    width: 22px;
+    height: 22px;
+    vertical-align: middle;
+  }
+
+  .key {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    left: 37px;
+    background-color: #fff;
+  }
+  .dark .key {
+    background-color: #000;
+  }
+
+  .key.swipe-right {
+    animation: toDark .3s ease-in forwards;
+  }
+  .key.swipe-left {
+    animation: toLight .3s ease-in forwards;
+  }
+
+  @keyframes toDark {
+    0% {
+      left: 2px;
+    }
+    100% {
+      left: 37px;
+    }
+  }
+
+  @keyframes toLight {
+    0% {
+      left: 37px;
+    }
+    100% {
+      left: 1px;
+    }
+  }
+
+  @media all and (max-width: 768px) {
+    .dark-key__container {
+        right: 125px;
+    }
+}

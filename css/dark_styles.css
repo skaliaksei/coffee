@@ -1,0 +1,230 @@
+.light h2 {
+    color: #000000;
+    opacity: 0.87;
+}
+
+.light h3 {
+    color: #000000;
+}
+
+.light h4 {
+    color: #2e2e2e;
+}
+
+/* BURGER */
+
+.light .burger-menu__item {
+    background-color: rgb(0, 0, 0);
+}
+
+/* Mobile menu */
+.light .mobile-menu {
+    background-color: rgba(0, 0, 0, 0.97);
+}
+
+.light .mobile-menu__item a {
+    font-family: 'Fira Code', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 50px;
+    color: rgb(255, 255, 255);
+}
+.light .mobile-menu__item--active a{
+    color: #ffa32a;
+}
+/* main in MAIN-PAGE */
+.light .wrapper {
+    background: #fff;
+}
+
+.light .container {
+    background: #fff;
+}
+
+.light .nav-list__item a {
+    color: #fff;
+}
+.light .nav-list__item a:hover {
+    color: #ffa32a;
+}
+
+.light .nav-list__item a {
+    color: #000;
+}
+
+.light .nav-list__item--active a{
+    color: #FFC492;
+    border-bottom: solid 2px #FFC492;
+}
+.light .nav-list__item--active a:hover{
+    border-bottom: solid 2px #ffa32a;
+}
+
+
+
+.more {
+    color: #FFC492;
+}
+
+
+
+
+
+.button-key {
+    background-color: #ffb577;
+    color: #2e2d33;
+}
+.button-key:hover {
+    background-color: #ffa32a;
+    color: #fff;
+}
+
+
+
+
+.light .link a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+.light .link a {
+    color: #FFB577;
+
+}
+
+
+.light .second-card__item {
+    color: #1f1f1f;
+
+}
+.light .second-card__line1 {
+    color: #377fd0;
+}
+
+
+
+
+
+/* MENU_PAGE */
+
+.discover__subtitle span {
+    color: #FFB577;
+}
+.discover__line {
+    border-top: solid 1px #fff;
+}
+
+.menu__list-item {
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+.menu__list-item:hover {
+    color: #fff;
+    opacity: 1;
+}
+
+
+
+.menu-card {
+    background-color: #1F1D21;
+
+}
+
+.menu-card__description {
+    color: #FFFFFF;
+    opacity: 0.87;
+}
+
+
+/* FOOTER */
+
+.footer__bottom {
+    border-top: solid 1px rgba(255, 255, 255, 0.07);
+}
+.footer__copypaste {
+    color: #B8B8B8;
+}
+
+.footer__contact span {
+    color: #B8B8B8;
+}
+.light .footer__social-networks {
+    background-color: #000;
+}
+
+
+/* ABOUT__PAGE */
+.gradient-container {
+    background: linear-gradient(-70deg, rgba(0, 0, 0, 0) 15%, rgba(25, 22, 27, 9.2) 90%);
+}
+.picture-text__title {
+    color: #FFFFFF;
+    opacity: 0.87;
+}
+.picture-text__title .bold{
+    color: #FFC492;
+}
+
+.our-history {
+    background-color: rgba(255, 255, 255, 0.03);
+}
+.our-history__title {
+    color: #fff;
+}
+.our-history__card-area {
+    border-top: 2px dashed rgba(255, 255, 255, 0.15);
+}
+.our-history__card-line {
+    border-top: 6px solid #FFB577;
+    background-color: #fff;
+}
+.our-history__card-year {
+    color: #fff;
+}
+.our-history__card-subtitle {
+    color: #fff;
+}
+
+/* STORY */
+
+.main-story__paragraph {
+    color: #B8B8B8;
+}
+
+/* CONTACTS */
+
+
+.light input[type=text] {
+	border: solid 1px rgba(0, 0, 0, .2);
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+}
+
+.light textarea {
+
+	border: solid 1px rgba(0, 0, 0, .2);
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+}
+
+.light input[type=submit] {
+	color: rgb(0, 0, 0);
+	background-color:  #ffb577;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+.light input[type=submit]:hover {
+	background-color: #27252D;
+	color:#fff;
+}
+
+.light .map__description {
+    background-color: #bebebe;
+}
+
+.light .map__description-title {
+    color: #000000;
+}
+.light .map__description-text {
+    color: #222222;
+}

@@ -1,17 +1,3 @@
-/* .nav__content {
-    position: absolute;
-    display: block;
-    background-color: #fff;
-    width: 100%;
-    transform: translateY(-200%);
-}
-
-.nav__content--active {
-    transform: translateY(0);
-} */
-
-
-
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -24,7 +10,6 @@ h2 {
     font-style: normal;
     font-weight: bold;
     font-size: 56px;
-    /* font-size: calc(36px + 20 * (100vw / 1280)); */
     line-height: 60px;
     color: #FFFFFF;
     opacity: 0.87;
@@ -51,10 +36,6 @@ h4 {
 a {
     text-decoration: none;
 }
-
-/* font-family: 'Fira Code', monospace;
-
-font-family: 'Philosopher', sans-serif; */
 
 /* BURGER */
 .burger-menu {
@@ -510,9 +491,11 @@ font-family: 'Philosopher', sans-serif; */
 }
 .footer__social-networks {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    width: 80px;
+    width: 75px;
+    height: 26px;
+    border-radius: 8px;
 }
 
 .footer__contact-us {
