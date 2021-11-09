@@ -1,0 +1,40 @@
+@media all and (max-width: 900px) {
+    h2 {
+        font-size: 36px;
+        line-height: 45px;
+    }
+
+    h3 {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    h4 {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    .nav-list {
+        justify-content: center;
+    }
+
+    /* STORY-PAGE */
+    .story-card__right {
+        min-width: 100%;
+    }
+
+    /* FOOTER-PAGE */
+    .footer {
+        padding-top: 20px;
+    }
+    .footer__contact-us {
+        margin-left: 0;
+    }
+    .discover__line {
+        display: none;
+    }
+}

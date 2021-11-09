@@ -631,7 +631,7 @@ font-family: 'Philosopher', sans-serif; */
 /* STORY */
 .main-story {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     padding-top: 96px;
 }
@@ -648,6 +648,7 @@ font-family: 'Philosopher', sans-serif; */
 .story-card__left {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 15px;
 }
 
 .story-card__first-picture {

@@ -79,7 +79,6 @@
     }
 
 
-    /* MENU_PAGE */
     /* MENU-PAGE */
     .menu {
 
@@ -99,6 +98,39 @@
     /* ABOUT_PAGE */
     .picture__container {
         margin-top: 20px;
+    }
+
+    /* STORY_PAGE */
+    .main-story {
+    }
+    .main-story__left {
+    }
+    .second-card__title {
+    }
+    .second-card__subtitle {
+    }
+    .story-card__left {
+        justify-content: space-around;
+    }
+    .story-card__first-picture {
+    }
+    .inner1 {
+    }
+    .story-card__second-picture {
+    }
+    .inner2 {
+    }
+    .story-card__right {
+    }
+    .main-story__min-title {
+    }
+    .picture-text__title {
+    }
+    .picture-text__title__story {
+    }
+    .bold {
+    }
+    .main-story__paragraph {
     }
 
     /* MAP */
@@ -128,6 +160,9 @@
 
 
     /* FOOTER */
+    .footer__copypaste {
+        width: 135px;
+    }
     .discover__line {
         display: none;
     }

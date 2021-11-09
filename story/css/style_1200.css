@@ -1,0 +1,8 @@
+@media all and (max-width: 1200px) {
+    .main-story {
+        padding-top: 10px;
+    }
+    .footer {
+        padding-top: 70px;
+    }
+}
