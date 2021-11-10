@@ -120,8 +120,6 @@ a {
 
 .nav-list {
     display: flex;
-    /* height: 80px; */
-    /* flex-wrap: wrap; */
 }
 
 .nav-list__item {
@@ -155,7 +153,6 @@ a {
     border-bottom: solid 2px #ffa32a;
 }
 
-
 .nav-list__item + .nav-list__item {
     margin-left: 40px;
 }
@@ -175,7 +172,6 @@ a {
 }
 .card {
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: space-between;
     max-width: 1280px;
     height: 683px;
@@ -300,15 +296,12 @@ a {
 .second-card__line3 {
 }
 
-
-
 .second-card__right {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     width: 50%;
     height: 595px;
-    /* margin-left: 50px; */
 }
 
 .second-card__right .inner1 {
@@ -319,8 +312,6 @@ a {
     margin-top: 10px;
     margin-bottom: 80px;
 }
-
-
 
 /* MENU_PAGE */
 .discover {
@@ -392,7 +383,6 @@ a {
     cursor: pointer;
 }
 
-
 .menu__card-area {
     display: flex;
     flex-wrap: wrap;
@@ -414,11 +404,9 @@ a {
 
 .menu-card__picture {
     height: 270px;
-    /* background: url('../menu/images/cappucino.png'); */
 }
 .menu-card__item {
     width: 405px;
-    /* width: 33%; */
 }
 .menu-card__description {
     display: flex;
@@ -427,7 +415,7 @@ a {
     height: 80px;
     font-style: normal;
     font-size: 20px;
-    color: #FFFFFF;
+    color: #FFF;
     opacity: 0.87;
 }
 .menu-card__title {
@@ -440,7 +428,6 @@ a {
     line-height: 32px;
     margin-right: 32px;
 }
-
 
 /* FOOTER */
 .footer {
@@ -507,7 +494,6 @@ a {
     background-position: center;
     height: 500px;
     background-size: cover;
-    /* background: linear-gradient(to left, rgba(0, 0, 0, 0.1), #19161b); */
     background: linear-gradient(-70deg, rgba(0, 0, 0, 0) 15%, rgba(25, 22, 27, 9.2) 90%);
 }
 .picture-text__container {
@@ -585,13 +571,6 @@ a {
     margin-bottom: 16px;
 }
 .our-history__card-description {
-    /* font-family: 'Fira Code', monospace;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #B8B8B8; */
-    /* font-family: 'Philosopher', sans-serif; */
 }
 
 /* STORY */
@@ -644,18 +623,12 @@ a {
 }
 
 /* CONTACTS */
-
 #inputArea {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
 }
 
-/* div#inputWrapp > div {
-	flex-grow: 1;
-	flex-shrink: 1;
-} */
 #name {
 	margin-right: 15px;
     margin-bottom: 15px;
@@ -699,7 +672,6 @@ input[type=submit] {
     width: 213px;
     height: 64px;
     border: none;
-	/* text-decoration: none; */
 	color: #fff;
 	background-color: #27252D;
 	text-transform: capitalize;
@@ -762,7 +734,6 @@ input[type=submit]:hover {
     height: 100%;
     background: url('../images/map.png') center center;
     background-repeat: no-repeat;
-    /* background-size: cover; */
     transition-duration: 0.7s;
     background-position-x: -500px;
 }
