@@ -2,26 +2,22 @@
     color: #000000;
     opacity: 0.87;
 }
-
 .light h3 {
     color: #000000;
 }
-
 .light h4 {
     color: #2e2e2e;
 }
 
 /* BURGER */
-
 .light .burger-menu__item {
     background-color: rgb(0, 0, 0);
 }
 
-/* Mobile menu */
+/* MOBILE-MENU */
 .light .mobile-menu {
     background-color: rgba(0, 0, 0, 0.97);
 }
-
 .light .mobile-menu__item a {
     font-family: 'Fira Code', monospace;
     font-style: normal;
@@ -33,26 +29,23 @@
 .light .mobile-menu__item--active a{
     color: #ffa32a;
 }
-/* main in MAIN-PAGE */
+
+/* MAIN-PAGE */
 .light .wrapper {
     background: #fff;
 }
-
 .light .container {
     background: #fff;
 }
-
 .light .nav-list__item a {
     color: #fff;
 }
 .light .nav-list__item a:hover {
     color: #ffa32a;
 }
-
 .light .nav-list__item a {
     color: #000;
 }
-
 .light .nav-list__item--active a{
     color: #FFC492;
     border-bottom: solid 2px #FFC492;
@@ -60,17 +53,9 @@
 .light .nav-list__item--active a:hover{
     border-bottom: solid 2px #ffa32a;
 }
-
-
-
 .more {
     color: #FFC492;
 }
-
-
-
-
-
 .button-key {
     background-color: #ffb577;
     color: #2e2d33;
@@ -79,79 +64,56 @@
     background-color: #ffa32a;
     color: #fff;
 }
-
-
-
-
 .light .link a:hover {
     color: rgb(0, 0, 0);
     text-decoration: underline;
 }
 .light .link a {
     color: #FFB577;
-
 }
-
-
 .light .second-card__item {
     color: #1f1f1f;
-
 }
 .light .second-card__line1 {
     color: #377fd0;
 }
 
-
-
-
-
 /* MENU_PAGE */
-
 .discover__subtitle span {
     color: #FFB577;
 }
 .discover__line {
     border-top: solid 1px #fff;
 }
-
-.menu__list-item {
-    color: #FFFFFF;
+.light .menu__list-item {
+    color: #000;
     opacity: 0.6;
 }
 .menu__list-item:hover {
     color: #fff;
     opacity: 1;
 }
-
-
-
 .menu-card {
     background-color: #1F1D21;
-
 }
-
 .menu-card__description {
     color: #FFFFFF;
     opacity: 0.87;
 }
 
-
 /* FOOTER */
-
 .footer__bottom {
     border-top: solid 1px rgba(255, 255, 255, 0.07);
 }
 .light .footer__copypaste {
     color: #444;
 }
-
 .light .footer__contact span {
     color: #444;
 }
 .light .footer__social-networks {
     background-color: #000;
 }
-
 
 /* ABOUT__PAGE */
 .light .gradient-container {
@@ -167,7 +129,6 @@
 .light .picture-text__description h4 {
     color: #fff;
 }
-
 .light .our-history {
     background-color: rgba(0, 0, 0, 0.1);
 }
@@ -189,51 +150,40 @@
     color: rgb(0, 0, 0);
 }
 
-
 /* STORY */
-
 .light .main-story__paragraph {
     color: #242424;
 }
 
 /* CONTACTS */
-
-
 .light input[type=text] {
-	border: solid 1px rgba(0, 0, 0, .2);
+    border: solid 1px rgba(0, 0, 0, .2);
     color: rgb(0, 0, 0);
     background-color: #ffffff;
 }
-
 .light textarea {
-
-	border: solid 1px rgba(0, 0, 0, .2);
+    border: solid 1px rgba(0, 0, 0, .2);
     color: rgb(0, 0, 0);
     background-color: #ffffff;
 }
-
 .light input[type=submit] {
-	color: rgb(0, 0, 0);
-	background-color:  #ffb577;
+    color: rgb(0, 0, 0);
+    background-color:  #ffb577;
     box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
 }
-
 .light input[type=submit]:hover {
-	background-color: #27252D;
-	color:#fff;
+    background-color: #27252D;
+    color:#fff;
 }
-
 .light .map__description {
     background-color: #bebebe;
 }
-
 .light .map__description-title {
     color: #000000;
 }
 .light .map__description-text {
     color: #222222;
 }
-
 
 @media all and (max-width: 768px) {
     .light .our-history__card-area {
