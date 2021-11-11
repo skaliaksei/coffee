@@ -89,8 +89,8 @@
     color: #000;
     opacity: 0.6;
 }
-.menu__list-item:hover {
-    color: #fff;
+.light .menu__list-item:hover {
+    color: #000;
     opacity: 1;
 }
 .menu-card {
