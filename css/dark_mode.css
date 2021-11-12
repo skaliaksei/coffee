@@ -6,6 +6,10 @@
     cursor: pointer;
 }
 
+.key-hide {
+    display: none;
+}
+
 .switch {
     display: flex;
     align-items: center;
