@@ -120,7 +120,7 @@
     background: linear-gradient(-70deg, rgba(0, 0, 0, 0) 15%, rgba(25, 22, 27, 9.2) 90%);
 }
 .light .picture-text__title {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     opacity: 0.87;
 }
 .light .picture-text__title .bold{
